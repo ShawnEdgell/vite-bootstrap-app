@@ -25,7 +25,7 @@ export default defineConfig({
   server: {
     port: 3000,         // The port to run the development server on.
     open: true,         // Open the browser on server start.
-    strictPort: true,   // A Vite server will fail to start if the port is already in use.
+    strictPort: false,   // A Vite server will fail to start if the port is already in use.
     cors: true,         // Enable CORS. Set to true to configure the Access-Control-Allow-Origin header.
     https: false,       // Set to true to start the dev server over HTTPS using Node's built-in self-signed certificates.
     proxy: {            // Setup proxy to backend server during development.
